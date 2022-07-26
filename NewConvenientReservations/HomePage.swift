@@ -13,31 +13,32 @@ struct HomePage: View {
             
             NavigationView {
                 ZStack {
-                    Color.init(red: 0.027, green: 0.307, blue: 0.91)
+                    Color.init(red: 0.607, green: 0.712, blue: 0.57)
                         .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                     VStack {
                         Image("shoppingcartSVG")
                             .resizable()
                             .frame(width: 60.0, height:60)
                             .padding(.top, 100)
-                        Text("NextGen Loyalty")
-                            .font(.largeTitle)
-                            .fontWeight(.bold)
+                        Text("Newly Convenient Reservations")
+                            .font(.title)
+                            .fontWeight(.thin)
                             .foregroundColor(.white)
-                        Text("Powered by NCR AI")
+                            .multilineTextAlignment(.center)
+                        Text("Powered by NCR")
                             .font(.subheadline)
                             .foregroundColor(.white)
                         Spacer()
-//                        NavigationLink(destination: LoginView()) {
-//                            ZStack {
-//                                Capsule()
-//                                    .fill(Color.blue)
-//                                    .frame(width: 300, height:50, alignment: .center)
-//                                Text("Get started").foregroundColor(.white)
-//                            }
-//                            
-//                            
-//                        }
+                        NavigationLink(destination: LoginView()) {
+                            ZStack {
+                                Capsule()
+                                    .fill(Color.white)
+                                    .frame(width: 300, height:50, alignment: .center)
+                                Text("Get Started").foregroundColor(.gray)
+                            }
+                            
+                            
+                        }
                         .padding(.bottom, 50)
                         Text("Version 1.0")
                             .foregroundColor(.white)
@@ -52,3 +53,10 @@ struct HomePage: View {
         
     }
 }
+
+struct HomePage_Previews: PreviewProvider {
+    static var previews: some View {
+        HomePage()
+    }
+}
+

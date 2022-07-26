@@ -12,6 +12,9 @@
 		5963F49428903F1A006D47A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5963F49328903F1A006D47A3 /* Assets.xcassets */; };
 		5963F49728903F1B006D47A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5963F49628903F1B006D47A3 /* Preview Assets.xcassets */; };
 		5963F49E28904950006D47A3 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5963F49D28904950006D47A3 /* HomePage.swift */; };
+		5963F4A028905237006D47A3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5963F49F28905237006D47A3 /* LoginView.swift */; };
+		5963F4A22890555F006D47A3 /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5963F4A12890555F006D47A3 /* RestaurantView.swift */; };
+		5963F4A4289075A1006D47A3 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5963F4A3289075A1006D47A3 /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		5963F49328903F1A006D47A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5963F49628903F1B006D47A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5963F49D28904950006D47A3 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		5963F49F28905237006D47A3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5963F4A12890555F006D47A3 /* RestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantView.swift; sourceTree = "<group>"; };
+		5963F4A3289075A1006D47A3 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 				5963F49328903F1A006D47A3 /* Assets.xcassets */,
 				5963F49528903F1B006D47A3 /* Preview Content */,
 				5963F49D28904950006D47A3 /* HomePage.swift */,
+				5963F49F28905237006D47A3 /* LoginView.swift */,
+				5963F4A12890555F006D47A3 /* RestaurantView.swift */,
+				5963F4A3289075A1006D47A3 /* SearchBar.swift */,
 			);
 			path = NewConvenientReservations;
 			sourceTree = "<group>";
@@ -142,7 +151,10 @@
 			files = (
 				5963F49228903F15006D47A3 /* ContentView.swift in Sources */,
 				5963F49E28904950006D47A3 /* HomePage.swift in Sources */,
+				5963F4A028905237006D47A3 /* LoginView.swift in Sources */,
+				5963F4A22890555F006D47A3 /* RestaurantView.swift in Sources */,
 				5963F49028903F15006D47A3 /* NewConvenientReservationsApp.swift in Sources */,
+				5963F4A4289075A1006D47A3 /* SearchBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
