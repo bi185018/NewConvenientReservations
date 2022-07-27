@@ -25,7 +25,7 @@ struct HomePage: View {
                             .fontWeight(.thin)
                             .foregroundColor(.white)
                             .multilineTextAlignment(.center)
-                        Text("Powered by NCR")
+                        Text("Powered by NCR Aloha")
                             .font(.subheadline)
                             .foregroundColor(.white)
                         Spacer()
@@ -34,7 +34,7 @@ struct HomePage: View {
                                 Capsule()
                                     .fill(Color.white)
                                     .frame(width: 300, height:50, alignment: .center)
-                                Text("Get Started").foregroundColor(.gray)
+                                Text("GET STARTED").foregroundColor(.gray)
                             }
                             
                             
