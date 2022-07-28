@@ -1,0 +1,48 @@
+//
+//  Date3.swift
+//  NewConvenientReservations
+//
+//  Created by Iruku, Bura on 7/27/22.
+//
+
+import Foundation
+import SwiftUI
+
+struct Date3: View {
+    var body: some View {
+        HStack(alignment: .top) {
+            NavigationLink(destination: MenuView()) {
+                Text("+")
+            }
+            VStack(alignment: .leading) {
+                HStack {
+                    Text("Thursday, July 28")
+                        .font(.system(size: 12))
+                        .fontWeight(.bold)
+                    Text("7pm")
+                        .font(.system(size: 12))
+                        .padding(.leading, 130.0)
+                }
+                    
+                  
+            }
+            Spacer()
+               
+         
+
+        }
+        .frame(maxWidth: 400, maxHeight: 80)
+        .padding(.top, 5)
+        .padding(.bottom, 5)
+        .padding(.leading, 5)
+        .background(Color.white)
+        .modifier(CardModifier())
+        .padding(.all, 15)
+    }}
+    
+
+struct Date3_Previews: PreviewProvider {
+    static var previews: some View {
+        Date3()
+    }
+}

@@ -32,7 +32,7 @@ struct SplitBillView: View {
                     .fontWeight(.thin)
                 List(billitems) { billitem in
                     HStack {
-                        if billitem.price == 10 {
+                        if billitem.price == 190 {
                             CheckBoxView(checked: $notchecked)
                         } else {
                             CheckBoxView(checked: $checked)
@@ -94,7 +94,7 @@ struct SplitBillView: View {
                         Text("BACK TO MENU").fontWeight(.thin).foregroundColor(.black)
                     }
                 }
-                NavigationLink(destination: MenuView()) {
+                NavigationLink(destination: FinalView()) {
                     ZStack {
                         Capsule()
                             .fill(Color.gray)

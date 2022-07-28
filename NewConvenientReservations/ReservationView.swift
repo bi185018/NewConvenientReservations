@@ -13,12 +13,19 @@ struct ReservationView: View {
         ZStack {
             Color.init(red: 0.933, green: 0.933, blue: 0.933)
                 .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-            VStack {
-                Text("HUNTRESS")
-                    .font(.largeTitle)
-                    .fontWeight(.ultraLight)
-                Text("Pick a date:")
-                
+            ScrollView {
+                VStack {
+                    Text("HUNTRESS")
+                        .font(.largeTitle)
+                        .fontWeight(.ultraLight)
+                    Text("Pick a Date:")
+                    Date1()
+                    Date2()
+                    Date3()
+                    Date4()
+                    Spacer()
+                        .padding(.bottom, 50.0)
+                }
             }
         }
     }

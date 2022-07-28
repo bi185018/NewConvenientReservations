@@ -21,6 +21,10 @@
 		592CAAA228918EA9001F98F8 /* SplitBillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592CAAA128918EA9001F98F8 /* SplitBillView.swift */; };
 		592CAAA42891BF6C001F98F8 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592CAAA32891BF6C001F98F8 /* CheckBoxView.swift */; };
 		592CAAA62891C8B4001F98F8 /* FinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592CAAA52891C8B4001F98F8 /* FinalView.swift */; };
+		592CAAA82891E86E001F98F8 /* Date1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592CAAA72891E86E001F98F8 /* Date1.swift */; };
+		592CAAAA2891E9A7001F98F8 /* Date2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592CAAA92891E9A7001F98F8 /* Date2.swift */; };
+		592CAAAC2891E9FC001F98F8 /* Date3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592CAAAB2891E9FC001F98F8 /* Date3.swift */; };
+		592CAAAE2891EA3A001F98F8 /* Date4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592CAAAD2891EA3A001F98F8 /* Date4.swift */; };
 		5963F49028903F15006D47A3 /* NewConvenientReservationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5963F48F28903F15006D47A3 /* NewConvenientReservationsApp.swift */; };
 		5963F49228903F15006D47A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5963F49128903F15006D47A3 /* ContentView.swift */; };
 		5963F49428903F1A006D47A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5963F49328903F1A006D47A3 /* Assets.xcassets */; };
@@ -47,6 +51,10 @@
 		592CAAA128918EA9001F98F8 /* SplitBillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitBillView.swift; sourceTree = "<group>"; };
 		592CAAA32891BF6C001F98F8 /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
 		592CAAA52891C8B4001F98F8 /* FinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalView.swift; sourceTree = "<group>"; };
+		592CAAA72891E86E001F98F8 /* Date1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date1.swift; sourceTree = "<group>"; };
+		592CAAA92891E9A7001F98F8 /* Date2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date2.swift; sourceTree = "<group>"; };
+		592CAAAB2891E9FC001F98F8 /* Date3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date3.swift; sourceTree = "<group>"; };
+		592CAAAD2891EA3A001F98F8 /* Date4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date4.swift; sourceTree = "<group>"; };
 		5963F48C28903F15006D47A3 /* NewConvenientReservations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewConvenientReservations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5963F48F28903F15006D47A3 /* NewConvenientReservationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConvenientReservationsApp.swift; sourceTree = "<group>"; };
 		5963F49128903F15006D47A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,6 +120,10 @@
 				592CAAA128918EA9001F98F8 /* SplitBillView.swift */,
 				592CAAA32891BF6C001F98F8 /* CheckBoxView.swift */,
 				592CAAA52891C8B4001F98F8 /* FinalView.swift */,
+				592CAAA72891E86E001F98F8 /* Date1.swift */,
+				592CAAA92891E9A7001F98F8 /* Date2.swift */,
+				592CAAAB2891E9FC001F98F8 /* Date3.swift */,
+				592CAAAD2891EA3A001F98F8 /* Date4.swift */,
 			);
 			path = NewConvenientReservations;
 			sourceTree = "<group>";
@@ -199,6 +211,7 @@
 				5963F49228903F15006D47A3 /* ContentView.swift in Sources */,
 				592CAA8E289163ED001F98F8 /* ReservationView.swift in Sources */,
 				592CAAA02891897C001F98F8 /* CartView2.swift in Sources */,
+				592CAAAA2891E9A7001F98F8 /* Date2.swift in Sources */,
 				5963F49E28904950006D47A3 /* HomePage.swift in Sources */,
 				592CAA9C28917DE2001F98F8 /* MenuItem6.swift in Sources */,
 				5963F4A028905237006D47A3 /* LoginView.swift in Sources */,
@@ -208,9 +221,12 @@
 				592CAA9628917CA8001F98F8 /* MenuItem3.swift in Sources */,
 				592CAAA42891BF6C001F98F8 /* CheckBoxView.swift in Sources */,
 				592CAA9E28918968001F98F8 /* CartView1.swift in Sources */,
+				592CAAAC2891E9FC001F98F8 /* Date3.swift in Sources */,
+				592CAAAE2891EA3A001F98F8 /* Date4.swift in Sources */,
 				592CAA8C2890914C001F98F8 /* HuntressView.swift in Sources */,
 				592CAA9428917B4A001F98F8 /* MenuItem2.swift in Sources */,
 				5963F4A22890555F006D47A3 /* RestaurantView.swift in Sources */,
+				592CAAA82891E86E001F98F8 /* Date1.swift in Sources */,
 				5963F49028903F15006D47A3 /* NewConvenientReservationsApp.swift in Sources */,
 				592CAA9828917CFA001F98F8 /* MenuItem4.swift in Sources */,
 				5963F4A4289075A1006D47A3 /* SearchBar.swift in Sources */,
